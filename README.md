@@ -1,5 +1,7 @@
 # rust-bezier
 
+Most of the functionality of this library is now available here https://github.com/kb9113/odin-algebra. This new code is much more efficient as it computes the resultant via the sub resultant pseudo remainder sequence. It will however require you to convert your beziers to polynomial equations manually.
+
 Computes points of intersection of 2 dimentional bezier cuves of any degree. 
 Calculates the resultant using a silvester matrix determinant then uses Durand–Kerner method to find roots.
 
